@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dribble Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet"/>
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav>
+        <div class="nav-left">
+            <img src="https://imgs.search.brave.com/tzqnRkMQpFVWf-c1-1PAf9NfEGmYTLBsnj2I_GlTsz4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9sb2dv/cy13b3JsZC5uZXQv/d3AtY29udGVudC91/cGxvYWRzLzIwMjMv/MDkvRHJpYmJibGUt/TG9nby01MDB4Mjgx/LnBuZw" alt="Dribble Logo">
+            <ul class="left-navbar">
+                <li>Explore <i class="ri-arrow-down-s-line"></i></li>
+                <li>Hire a Designer <i class="ri-arrow-down-s-line"></i></li>
+                <li>Find Jobs </li>
+                <li>Blog</li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <button class="signup">Sign up</button>
+            <button class="login">Log in</button>
+        </div>
+    </nav>
+
+    <main>
+        
+        <!-- HERO TEXT -->
+        <div class="hero-text">
+            <h1>Discover the world's <br>top designers</h1>
+            <p> Explore work from the most talented and accomplished designers<br>ready to take on your next project</p>
+        </div>
+
+        <!-- SEARCHING AREA -->
+        <div class="search-bar">
+            <input type="search" name="search" placeholder="What are you looking for?">
+            <div class="search-right">
+                <p>Shots <i class="ri-arrow-down-s-line"></i></p>
+                <i class="ri-search-line search-icon"></i>
+            </div>
+        </div>
+        <div class="trending">
+            <div class="searches">Trending searches</div>
+
+            <div class="options">landing page</div>
+            <div class="options">e-commerce</div>
+            <div class="options">mobile app</div>
+            <div class="options">logo design</div>
+            <div class="options">dashboard</div>
+            <div class="options">icons</div>
+        </div>
+
+        
+        <!-- Cards Searching Area  -->
+        <ul class="card-navbar">
+            <li class="popular-btn">Popular <i class="ri-arrow-down-s-line" style="padding-left: 12px;"></i></li>
+            <li class="active">discover</li>
+            <li>animation</li>
+            <li>branding</li>
+            <li>illustration</li>
+            <li>mobile</li>
+            <li>print</li>
+            <li>product design</li>
+            <li>typography</li>
+            <li style="margin-right: 100px;">web design</li>
+            <li class="filter-btn"><i class="ri-filter-3-line" style="margin-right: 8px;"></i>filters</li>
+        </ul>
+
+        <!-- 
+        ------------------- CARDS LAYOUT ------------------- 
+        -->
+
+        <section class="card-section">
+            
+            <!-- CARD 01 -->
+            <div class="card">
+                <div class="card-image-container">
+                    <img class="card-image" src="https://cdn.dribbble.com/userupload/18907024/file/original-5e2099f7a0dfc8a56da9dea27c01efd0.jpg?format=webp&resize=/1200x900&vertical=center" alt="Card 01 image">
+                    <div class="card-hover">
+                            <p style="font-weight: 600;">Fitness and step coun..</p>
+                            <i class="ri-heart-3-line card-icon"></i>
+                            <i class="ri-bookmark-line card-icon"></i>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div class="company-info">
+                        <img class="company-image" src="https://cdn.dribbble.com/users/6454839/avatars/small/a615730b861d93eaebc6a7c1ec276489.jpg?1622535470" alt="Card 01 Company Image">
+                        <p class="company-name">Upnow Studio</p>
+                        <p class="pro-badge">PRO</p>
+                    </div>
+                    <div class="card-stats">
+                        <i class="ri-heart-3-fill stat-icon like-icon"></i>
+                        <span class="stat-number">31</span>
+                        <i class="ri-eye-fill stat-icon view-icon"></i>
+                        <span class="stat-number">6.6k</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CARD 02 -->
+            <div class="card">
+                <div class="card-image-container">
+                    <video autoplay loop muted class="card-image" src="https://cdn.dribbble.com/userupload/18911729/file/original-31b3d222d1c9ab101d5d197eb36b672a.mp4"></video>
+                    <div class="card-hover">
+                        <p style="font-weight: 600;">Hero 3D and Anima...</p>
+                        <i class="ri-heart-3-line card-icon"></i>
+                        <i class="ri-bookmark-line card-icon"></i>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div class="company-info">
+                        <img class="company-image" src="https://cdn.dribbble.com/users/14228077/avatars/small/0ddad37879c5ad169f685c663beba922.png?1693571474" alt="Card 02 Company Image">
+                        <p class="company-name">FANCY</p>
+                        <p class="pro-badge">TEAM</p>
+                    </div>
+                    <div class="card-stats">
+                        <i class="ri-heart-3-fill stat-icon like-icon"></i>
+                        <span class="stat-number">31</span>
+                        <i class="ri-eye-fill stat-icon view-icon"></i>
+                        <span class="stat-number">6.6k</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CARD 03 -->
+            <div class="card">
+                <div class="card-image-container">
+                    <img class="card-image" src="https://cdn.dribbble.com/userupload/18901622/file/original-3ea38dfb1ce6061d88bea856bc45c1c9.jpg?format=webp&resize=400x300&vertical=center" alt="Card 03 image">
+                    <div class="card-hover">
+                        <p style="font-weight: 600;">Liverage Crypto trading...</p>
+                        <i class="ri-heart-3-line card-icon"></i>
+                        <i class="ri-bookmark-line card-icon"></i>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div class="company-info">
+                        <img class="company-image" src="https://cdn.dribbble.com/users/1043230/avatars/small/092502a9a3cea1c44dd5e5f9939430b4.png?1540212885" alt="Card 02 Company Image">
+                        <p class="company-name">Extej UI UX Design...</p>
+                        <p class="pro-badge">PRO</p>
+                    </div>
+                    <div class="card-stats">
+                        <i class="ri-heart-3-fill stat-icon like-icon"></i>
+                        <span class="stat-number">31</span>
+                        <i class="ri-eye-fill stat-icon view-icon"></i>
+                        <span class="stat-number">6.6k</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CARD 04 -->
+            <div class="card">
+                <div class="card-image-container">
+                    <img class="card-image" src="https://cdn.dribbble.com/userupload/18916825/file/still-56dc65e9d214a0ab95778b11745b4a77.png?format=webp&resize=400x300&vertical=center" alt="Card 04 image">
+                    <div class="card-hover">
+                        <p style="font-weight: 600;">Plexo</p>
+                        <i class="ri-heart-3-line card-icon"></i>
+                        <i class="ri-bookmark-line card-icon"></i>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div class="company-info">
+                        <img class="company-image" src="https://cdn.dribbble.com/users/11502486/avatars/small/a8456497e26e27118763af6fc5b5fbcc.png?1650726363" alt="Card 02 Company Image">
+                        <p class="company-name">Emote</p>
+                        <p class="pro-badge">TEAM</p>
+                    </div>
+                    <div class="card-stats">
+                        <i class="ri-heart-3-fill stat-icon like-icon"></i>
+                        <span class="stat-number">31</span>
+                        <i class="ri-eye-fill stat-icon view-icon"></i>
+                        <span class="stat-number">6.6k</span>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+
+
+        <section class="card-section">
+            
+            <!-- CARD 05 -->
+            <div class="card">
+                <div class="card-image-container">
+                    <img class="card-image" src="https://cdn.dribbble.com/userupload/18860878/file/original-bb09066c4b66752294e2c8d69ee7eab7.png?format=webp&resize=400x300&vertical=center" alt="Card 05 image">
+                    <div class="card-hover">
+                            <p style="font-weight: 600;">Altecho-Webdesign</p>
+                            <i class="ri-heart-3-line card-icon"></i>
+                            <i class="ri-bookmark-line card-icon"></i>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div class="company-info">
+                        <img class="company-image" src="https://cdn.dribbble.com/users/1211065/avatars/small/b81496bc4bb212547959f523d2146f27.png?1718745884" alt="Card 05 Company Image">
+                        <p class="company-name">Victa Ville</p>
+                        <p class="pro-badge">PRO</p>
+                    </div>
+                    <div class="card-stats">
+                        <i class="ri-heart-3-fill stat-icon like-icon"></i>
+                        <span class="stat-number">31</span>
+                        <i class="ri-eye-fill stat-icon view-icon"></i>
+                        <span class="stat-number">6.6k</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CARD 06 -->
+            <div class="card">
+                <div class="card-image-container">
+                    <img class="card-image" src="https://cdn.dribbble.com/userupload/15858473/file/original-4b3c43159ee3f725177f53d844da029e.png?format=webp&resize=400x300&vertical=center" alt="Card 06 Image">
+                    <div class="card-hover">
+                        <p style="font-weight: 600;">Fitness and step coun..</p>
+                        <i class="ri-heart-3-line card-icon"></i>
+                        <i class="ri-bookmark-line card-icon"></i>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div class="company-info">
+                        <img class="company-image" src="https://cdn.dribbble.com/users/1210294/avatars/small/bd55d9caacc12da3b44d12363637c097.png?1716388700" alt="Card 06 Company Image">
+                        <p class="company-name">Bonsai</p>
+                        <p class="pro-badge">PRO</p>
+                    </div>
+                    <div class="card-stats">
+                        <i class="ri-heart-3-fill stat-icon like-icon"></i>
+                        <span class="stat-number">31</span>
+                        <i class="ri-eye-fill stat-icon view-icon"></i>
+                        <span class="stat-number">6.6k</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CARD 07 -->
+            <div class="card">
+                <div class="card-image-container">
+                    <img class="card-image" src="https://cdn.dribbble.com/userupload/18865610/file/original-12d4aa04f52edb097fb1c7c7afd299be.jpg?format=webp&resize=400x300&vertical=center" alt="Card 07 image">
+                    <div class="card-hover">
+                        <p style="font-weight: 600;">Doverange.</p>
+                        <i class="ri-heart-3-line card-icon"></i>
+                        <i class="ri-bookmark-line card-icon"></i>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div class="company-info">
+                        <img class="company-image" src="https://cdn.dribbble.com/users/22136/avatars/small/9ab8f67def79c1b8c442ee1874999148.jpg?1411082459" alt="Card 07 Company Image">
+                        <p class="company-name">Type08(alen pavlovic)</p>
+                        <p class="pro-badge">PRO</p>
+                    </div>
+                    <div class="card-stats">
+                        <i class="ri-heart-3-fill stat-icon like-icon"></i>
+                        <span class="stat-number">31</span>
+                        <i class="ri-eye-fill stat-icon view-icon"></i>
+                        <span class="stat-number">6.6k</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CARD 08 -->
+            <div class="card">
+                <div class="card-image-container">
+                    <img class="card-image" src="https://cdn.dribbble.com/userupload/18745258/file/original-d639b12b53f0aaff20ebde03f9e8f566.png?format=webp&resize=400x300&vertical=center" alt="Card 08 image">
+                    <div class="card-hover">
+                        <p style="font-weight: 600;">Financial Mobile App</p>
+                        <i class="ri-heart-3-line card-icon"></i>
+                        <i class="ri-bookmark-line card-icon"></i>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div class="company-info">
+                        <img class="company-image" src="https://cdn.dribbble.com/users/4949363/avatars/small/606bb85ee728fd3d78bbddf7e70b3901.jpg?1676454777" alt="Card 08 Company Image">
+                        <p class="company-name">Ronus IT|UI UX Tec..</p>
+                        <p class="pro-badge">PRO</p>
+                    </div>
+                    <div class="card-stats">
+                        <i class="ri-heart-3-fill stat-icon like-icon"></i>
+                        <span class="stat-number">31</span>
+                        <i class="ri-eye-fill stat-icon view-icon"></i>
+                        <span class="stat-number">6.6k</span>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        
+        <section class="card-section">
+            
+            <!-- CARD 09 -->
+            <div class="card">
+                <div class="card-image-container">
+                    <img class="card-image" src="https://cdn.dribbble.com/userupload/18827550/file/still-de60b218b87ac00cf7cfe46096701d1e.png?format=webp&resize=400x300&vertical=center" alt="Card 09 image">
+                    <div class="card-hover">
+                            <p style="font-weight: 600;">Animated Landing Page....</p>
+                            <i class="ri-heart-3-line card-icon"></i>
+                            <i class="ri-bookmark-line card-icon"></i>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div class="company-info">
+                        <img class="company-image" src="https://cdn.dribbble.com/users/14095940/avatars/small/e584c0a059b6c7c4f4c23852153e5521.png?1669730203" alt="Card 09 Company Image">
+                        <p class="company-name">Bato</p>
+                        <p class="pro-badge">TEAM</p>
+                    </div>
+                    <div class="card-stats">
+                        <i class="ri-heart-3-fill stat-icon like-icon"></i>
+                        <span class="stat-number">31</span>
+                        <i class="ri-eye-fill stat-icon view-icon"></i>
+                        <span class="stat-number">6.6k</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CARD 10 -->
+            <div class="card">
+                <div class="card-image-container">
+                    <img class="card-image" src="https://cdn.dribbble.com/userupload/18911411/file/original-d7cfc941b6d908e23895ee6fb3e9864f.jpg?format=webp&resize=400x300&vertical=center" alt="Card 10 Image">
+                    <div class="card-hover">
+                        <p style="font-weight: 600;">Finanace Logo</p>
+                        <i class="ri-heart-3-line card-icon"></i>
+                        <i class="ri-bookmark-line card-icon"></i>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div class="company-info">
+                        <img class="company-image" src="https://cdn.dribbble.com/users/4438388/avatars/small/ac894a88fa8acddc8b563c266c78df08.jpg?1708976300" alt="Card 06 Company Image">
+                        <p class="company-name">Jovel Ahmed</p>
+                        <p class="pro-badge">PRO</p>
+                    </div>
+                    <div class="card-stats">
+                        <i class="ri-heart-3-fill stat-icon like-icon"></i>
+                        <span class="stat-number">31</span>
+                        <i class="ri-eye-fill stat-icon view-icon"></i>
+                        <span class="stat-number">6.6k</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CARD 11 -->
+            <div class="card">
+                <div class="card-image-container">
+                    <img class="card-image" src="https://cdn.dribbble.com/userupload/18851563/file/original-3f5d517b52e3e5c9918aa6f29414e487.jpg?format=webp&resize=400x300&vertical=center" alt="Card 11 image">
+                    <div class="card-hover">
+                        <p style="font-weight: 600;">Rapid Rabbit Logo</p>
+                        <i class="ri-heart-3-line card-icon"></i>
+                        <i class="ri-bookmark-line card-icon"></i>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div class="company-info">
+                        <img class="company-image" src="https://cdn.dribbble.com/users/22136/avatars/small/9ab8f67def79c1b8c442ee1874999148.jpg?1411082459" alt="Card 07 Company Image">
+                        <p class="company-name">Levi Lowell</p>
+                        <p class="pro-badge">PRO</p>
+                    </div>
+                    <div class="card-stats">
+                        <i class="ri-heart-3-fill stat-icon like-icon"></i>
+                        <span class="stat-number">31</span>
+                        <i class="ri-eye-fill stat-icon view-icon"></i>
+                        <span class="stat-number">6.6k</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CARD 12 -->
+            <div class="card">
+                <div class="card-image-container">
+                    <img class="card-image" src="https://cdn.dribbble.com/userupload/18869949/file/original-9407889cf2190177eafb7b2469647b8f.jpg?format=webp&resize=400x300&vertical=center" alt="Card 12 image">
+                    <div class="card-hover">
+                        <p style="font-weight: 600;">Financial Mobile App</p>
+                        <i class="ri-heart-3-line card-icon"></i>
+                        <i class="ri-bookmark-line card-icon"></i>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div class="company-info">
+                        <img class="company-image" src="https://cdn.dribbble.com/users/3954689/avatars/small/502c7cc4f5b1f6878438c9461aa1bcaa.jpg?1705035698" alt="Card 12 Company Image">
+                        <p class="company-name">Ulysses Design Co.</p>
+                        <p class="pro-badge">PRO</p>
+                    </div>
+                    <div class="card-stats">
+                        <i class="ri-heart-3-fill stat-icon like-icon"></i>
+                        <span class="stat-number">31</span>
+                        <i class="ri-eye-fill stat-icon view-icon"></i>
+                        <span class="stat-number">6.6k</span>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="card-section-footer">
+            <div class="signup-footer">
+                <p>Sign up to continue</p>
+                <i  class="ri-arrow-up-line bg-zinc-400 text-white rounded-[50%] h-fit text-2xl p-3 "></i>
+            </div>
+        </section>
+
+        <!-- MARQUEE -->
+        <div class="marquee">
+
+            <div class="marquee-container">
+                <img class="marquee-logo first-logo" src="https://cdn.prod.website-files.com/63c3f1995d4c3581bbc944b5/63c418ce9f1b45e141bf28b5_client-logo-03.svg" alt="first logo">
+                <img class="marquee-logo" src="https://cdn.prod.website-files.com/63c3f1995d4c3581bbc944b5/63c418ce2c404b364300ba31_client-logo-04.svg" alt="second logo">
+                <img class="marquee-logo" src="https://cdn.prod.website-files.com/63c3f1995d4c3581bbc944b5/63c418cea9dabe252e43b0c0_client-logo-07.svg" alt="third logo">
+                <img class="marquee-logo" src="https://cdn.prod.website-files.com/63c3f1995d4c3581bbc944b5/63c418cea9dabef95143b0c1_client-logo-06.svg" alt="fourth logo">
+                <img class="marquee-logo" src="https://cdn.prod.website-files.com/63c3f1995d4c3581bbc944b5/63c418af3b2b766cebaba02d_client-logo-01.svg" alt="fifth logo">
+                <img class="marquee-logo" src="https://cdn.prod.website-files.com/63c3f1995d4c3581bbc944b5/63c418ce6a0062cf2d279e35_client-logo-02.svg" alt="sixth logo">
+            </div>
+
+            <div class="marquee-container">
+                <img class="marquee-logo first-logo" src="https://cdn.prod.website-files.com/63c3f1995d4c3581bbc944b5/63c418ce9f1b45e141bf28b5_client-logo-03.svg" alt="first logo">
+                <img class="marquee-logo" src="https://cdn.prod.website-files.com/63c3f1995d4c3581bbc944b5/63c418ce2c404b364300ba31_client-logo-04.svg" alt="second logo">
+                <img class="marquee-logo" src="https://cdn.prod.website-files.com/63c3f1995d4c3581bbc944b5/63c418cea9dabe252e43b0c0_client-logo-07.svg" alt="third logo">
+                <img class="marquee-logo" src="https://cdn.prod.website-files.com/63c3f1995d4c3581bbc944b5/63c418cea9dabef95143b0c1_client-logo-06.svg" alt="fourth logo">
+                <img class="marquee-logo" src="https://cdn.prod.website-files.com/63c3f1995d4c3581bbc944b5/63c418af3b2b766cebaba02d_client-logo-01.svg" alt="fifth logo">
+                <img class="marquee-logo" src="https://cdn.prod.website-files.com/63c3f1995d4c3581bbc944b5/63c418ce6a0062cf2d279e35_client-logo-02.svg" alt="sixth logo">
+            </div>
+            
+            
+        </div>
+
+        <!-- BOTTM SECTION -->
+        <section class="bottom-navbar">
+
+            <img class="bottom-logo" src="https://imgs.search.brave.com/tzqnRkMQpFVWf-c1-1PAf9NfEGmYTLBsnj2I_GlTsz4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9sb2dv/cy13b3JsZC5uZXQv/d3AtY29udGVudC91/cGxvYWRzLzIwMjMv/MDkvRHJpYmJibGUt/TG9nby01MDB4Mjgx/LnBuZw" alt="Dribbble Logo">
+
+            <p class="bottom-items" style="margin-left: 50px;">For designers</p>
+            <p class="bottom-items">Hire talent</p>
+            <p class="bottom-items">Inspiration</p>
+            <p class="bottom-items">Advertising</p>
+            <p class="bottom-items">Blog</p>
+            <p class="bottom-items">About</p>
+            <p class="bottom-items">Careers</p>
+            <p class="bottom-items" style="margin-right: 50px;">Support</p>
+
+            <div class="social-icons">
+                <i class="ri-twitter-fill"></i>
+                <i class="ri-facebook-box-fill"></i>
+                <i class="ri-instagram-line"></i>
+                <i class="ri-pinterest-fill"></i>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <div class="footer-left">
+            <div class="copyright">
+                <i class="ri-copyright-line"></i>
+                <p>2025 Dribbble</p>
+            </div>
+
+            <p>Terms</p>
+            <p>Privacy</p>
+            <p>Cookies</p>
+
+        </div>
+
+        <div class="footer-right">
+            <p>Jobs</p>
+            <p>Designers</p>
+            <p>Freelancers</p>
+            <p>Tags</p>
+            <p>Places</p>
+            <p>Resources</p>
+        </div>
+
+    </footer>
+</body>
+</html>
